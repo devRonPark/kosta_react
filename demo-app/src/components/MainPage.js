@@ -9,6 +9,7 @@ const MainPage = () => {
     const onClickLogoutHandle = () => setIsLogin(false);
     return (
         <div>
+            <Greeting isLogin={isLogin} />
             <Toolbar 
                 isLogin={isLogin} 
                 onClickLoginHandle={onClickLoginHandle}
