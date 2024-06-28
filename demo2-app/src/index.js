@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BlogMain from './components/blog/BlogMain';
-import MainPage from './MainPage';
+import Container from './components/ex1/Container';
+import WordContainer from './components/ex2/WordContainer';
+import CartContainer from './components/ex3/CartContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <BlogMain /> */}
-    <MainPage />
+    {/* <Container /> */}
+    {/* <WordContainer /> */}
+    <CartContainer />
   </React.StrictMode>
 );
 
